@@ -1,5 +1,13 @@
 # qb-lapraces
 Race Track Creation For QB-Core
+A pretty shit qb-lapraces reskin to look like nopixel
+
+My mapping discord https://discord.gg/8SUJN7JXk2
+
+![image](https://user-images.githubusercontent.com/66903577/182965603-bad89c6e-0bc8-4089-aa92-462c302af11d.png)
+![image](https://user-images.githubusercontent.com/66903577/182965638-0023c4af-a53a-471d-b27b-5e87187c746e.png)
+![image](https://user-images.githubusercontent.com/66903577/182965674-1caea01a-e45a-4816-b97b-0833e6ae7a5c.png)
+
 
 # License
 

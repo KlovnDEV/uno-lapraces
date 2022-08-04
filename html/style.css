@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     margin: 0;
@@ -18,20 +19,23 @@ body {
     position: absolute;
     width: 30vh;
     height: 20vh;
-    bottom: 23vh;
-    border-radius: 1vh;
-    left: 2.7vh;
+    bottom: 2.7vh;
+    right: 2.7vh;
 }
 
 .editor {
     display: none;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+    height: 100%;
 }
 
 #editor-racename {
     position: absolute;
-    left: 2vh;
-    top: 2vh;
-    font-family: 'Poppins', sans-serif;
+    left: 5%;
+    top: 0.5vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
@@ -39,9 +43,9 @@ body {
 
 #editor-checkpoints {
     position: absolute;
-    left: 2vh;
-    top: 5vh;
-    font-family: 'Poppins', sans-serif;
+    left: 5%;
+    top: 3.2vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
@@ -49,9 +53,9 @@ body {
 
 #editor-keys-tiredistance {
     position: absolute;
-    left: 2vh;
-    top: 8vh;
-    font-family: 'Poppins', sans-serif;
+    left: 5%;
+    top: 6vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
@@ -59,9 +63,9 @@ body {
 
 #editor-keys-add {
     position: absolute;
-    left: 2vh;
-    top: 11vh;
-    font-family: 'Poppins', sans-serif;
+    left: 5%;
+    top: 9vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
@@ -69,9 +73,9 @@ body {
 
 #editor-keys-delete {
     position: absolute;
-    left: 2vh;
-    top: 14vh;
-    font-family: 'Poppins', sans-serif;
+    left: 5%;
+    top: 12vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
@@ -79,9 +83,9 @@ body {
 
 #editor-keys-cancel {
     position: absolute;
-    left: 2vh;
-    top: 17vh;
-    font-family: 'Poppins', sans-serif;
+    left: 5%;
+    top: 14.5vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
@@ -89,9 +93,9 @@ body {
 
 #editor-keys-save {
     position: absolute;
-    left: 2vh;
-    top: 20vh;
-    font-family: 'Poppins', sans-serif;
+    left: 5%;
+    top: 17vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
@@ -101,64 +105,142 @@ body {
 
 .race {
     display: none;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+    height: 98%;
 }
 
-#race-racename {
+#racename {
     position: absolute;
-    left: 2vh;
-    top: 2vh;
-    font-family: 'Poppins', sans-serif;
+    left: 5%;
+    top: 1vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
+    text-align: right;
+}
+
+#checkpoints {
+    position: absolute;
+    left: 5%;
+    top: 4vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--main-font-size);
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
+    text-align: right;
+}
+
+#lap {
+    position: absolute;
+    left: 5%;
+    top: 7vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--main-font-size);
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
+    text-align: right;
+}
+
+#time {
+    position: absolute;
+    left: 5%;
+    top: 10vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--main-font-size);
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
+    text-align: right;
+}
+
+#besttime {
+    position: absolute;
+    left: 5%;
+    top: 13vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--main-font-size);
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
+    text-align: right;
+}
+
+#totaltime {
+    position: absolute;
+    left: 5%;
+    top: 16vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--main-font-size);
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
+    text-align: right;
+}
+
+---
+
+#race-racename {
+    position: absolute;
+    right: 5%;
+    top: 1vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--main-font-size);
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
+    text-align: right;
 }
 
 #race-checkpoints {
     position: absolute;
-    left: 2vh;
-    top: 5vh;
-    font-family: 'Poppins', sans-serif;
+    right: 5%;
+    top: 4vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
+    text-align: right;
 }
 
 #race-lap {
     position: absolute;
-    left: 2vh;
-    top: 8vh;
-    font-family: 'Poppins', sans-serif;
+    right: 5%;
+    top: 7vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
+    text-align: right;
 }
 
 #race-time {
     position: absolute;
-    left: 2vh;
-    top: 11vh;
-    font-family: 'Poppins', sans-serif;
+    right: 5%;
+    top: 10vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
+    text-align: right;
 }
 
 #race-besttime {
     position: absolute;
-    left: 2vh;
-    top: 14vh;
-    font-family: 'Poppins', sans-serif;
+    right: 5%;
+    top: 13vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
+    text-align: right;
 }
 
 #race-totaltime {
     position: absolute;
-    left: 2vh;
-    top: 17vh;
-    font-family: 'Poppins', sans-serif;
+    right: 5%;
+    top: 16vh;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--main-font-size);
     color: white;
     text-shadow: 1px 1px 0px #000000;
+    text-align: right;
 }
